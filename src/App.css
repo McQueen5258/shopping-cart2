@@ -1,0 +1,27 @@
+h1{
+  text-align: center;
+}
+
+.Items {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.Item {
+  border: 1px solid black;
+  margin: 10px;
+  width: 155px;
+  /* height: 209px; */
+}
+.Item img {
+  width:100%;
+  /* height: 100px; */
+}
+
+.Items {
+  /* width: 100vw; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  
+}
